@@ -21,10 +21,7 @@ const Top = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                    <Nav.Link href="/Team">Team</Nav.Link>
-                    <Nav.Link href="/Stats">Stats</Nav.Link>
-                    <Nav.Link href="#Schedule">Schedule</Nav.Link>
-                    <Nav.Link href="#Quizzes">Quizzes</Nav.Link>
+                    
                 </Nav>
                 </Navbar.Collapse>
             </Row>
