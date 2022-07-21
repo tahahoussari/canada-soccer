@@ -7,10 +7,12 @@ import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button";
 
+
 const Test = () => {
     return ( 
         
         <Container>
+          
       <Row className="home">
         <Col><h1 className="title">Follow Canada's journey through the World Cup here!</h1></Col>
       </Row>

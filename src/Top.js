@@ -12,23 +12,19 @@ const Top = () => {
       <Container >
         <Col>
             <Row className="logoAndName">
+            <a>
                 <img src={Image} style={{width:100, height:90}} className="logoPic"></img>
                 <h1 className="logoName">Canada Soccer</h1>
+            </a>
             </Row>
             <Row className="links">
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                    <Nav.Link href="#Team">Team</Nav.Link>
-                    <Nav.Link href="#Stats">Stats</Nav.Link>
+                    <Nav.Link href="/Team">Team</Nav.Link>
+                    <Nav.Link href="/Stats">Stats</Nav.Link>
                     <Nav.Link href="#Schedule">Schedule</Nav.Link>
                     <Nav.Link href="#Quizzes">Quizzes</Nav.Link>
-                </Nav>
-                <Nav>
-                    <Nav.Link href="#deets">More deets</Nav.Link>
-                    <Nav.Link eventKey={2} href="#memes">
-                        Dank memes
-                    </Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Row>

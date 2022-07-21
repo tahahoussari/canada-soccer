@@ -18,6 +18,7 @@
 .logoName{
   background-color: white;
   color: Black;
+  text-align: center;
 }
 
 .logoAndName{
@@ -30,7 +31,69 @@
   margin-right: auto;
 }
 
+.position{
+  background-color: #dd122a;
+  color: white;
+  padding: 5px;
+  border: 3px solid black;
+}
 
+.groupHeader{
+  background-color: #dd122a;
+  color:white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.groupHeaderTwo{
+  background-color: #dd122a;
+  color:white;
+  border: 2px solid black;
+}
+
+.countryPic{
+  border: 1px solid black;
+}
+
+.tables{
+  padding-top: 200px;
+  
+}
+.tablesTwo{
+  padding-top: 20px;
+  
+}
+
+.quizTitle{
+  background-color: #dd122a;
+  color: white;
+  padding: 5px;
+  border: 3px solid black;
+}
+
+.quizLink{
+  background-color: #dd122a;
+  color: white;
+  padding: 5px;
+  border: 3px solid black;
+}
+
+.quiz{
+  padding: 10px;
+ 
+}
+
+.warning{
+  color: grey;
+  padding-top: 50px;
+}
+
+.groupTable{
+  padding-left: 20px;
+}
+
+.schedule{
+  padding-top: 50px;
+}
 /****home page css****/
 
 .title{
@@ -81,7 +144,9 @@
   padding-bottom: 30px;
 }
 
-
+.player{
+  margin-left: auto;
+}
 
 
 
