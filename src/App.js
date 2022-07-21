@@ -1,22 +1,16 @@
 import './App.css';
-import Navbar from './Navbar';
-import Home from './Home';
-import Carousel from './Carousel';
+import Top from './Top';
+import Test from './Test';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
+      <Top></Top>
 
-      <div className="content">
-        <Home></Home>
+      <div>
+        <Test></Test>
       </div>
-
-      <div className="carousel">
-        <Carousel></Carousel>
-      </div>
-    
     </div>
   );
 }

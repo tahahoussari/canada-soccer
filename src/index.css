@@ -6,58 +6,30 @@
   font-family: "Quicksand";
   color: #333;
 }
-.navbar {
-  width: 100%;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
+
+.top{
   background-color: #dd122a;
-  
 }
+
 .links{
   background-color: black;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  
 }
 
-.cont{
-  background-color: #dd122a;
-}
-
-.logo{
+.logoName{
   background-color: white;
-  
+  color: Black;
 }
 
-.navbar h1 {
-  color: black;
-  font-size: 30px;
-  font-weight: bold;
-  
-}
-
-.navbar a {
-  color: white;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
-  background-color: black;
-  font-size: 20px;
-  text-decoration: none;
-}
-.navbar a:hover {
-  color: #dd122a;
+.logoAndName{
   background-color: white;
 }
 
-.content {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
-
+.logoPic{
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 /****home page css****/
 
@@ -75,6 +47,7 @@
 
 .home{
   padding-bottom: 20px;
+  padding-top: 30px;
 }
 
 .paragraph{
@@ -108,33 +81,7 @@
   padding-bottom: 30px;
 }
 
-.carousel{
-  padding-top: 30px;
-  
-}
 
-.carouselItem{
-  
-}
 
-.carouselImage{
-  
-}
 
-.playerTitle{
-  background-color: #dd122a;
-  color: white;
-  padding: 5px;
-  border: 3px solid black;
-  font-size: 25px;
-  
-}
 
-.playersTitle{
-  background-color: #dd122a;
-  color: white;
-  padding: 5px;
-  border: 3px solid black;
-  font-size: 50px;
-
-}
